@@ -1,0 +1,6 @@
+#!/bin/bash
+
+su user
+pacman-key --init
+pacman-key -r 3A9917BF0DED5C13F69AC68FABEC0A1208037BE9
+pacman-key --lsign-key 3A9917BF0DED5C13F69AC68FABEC0A1208037BE9
